@@ -1,0 +1,23 @@
+{
+  "name": "linkoutofmemory",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn workspace umi-test-utils run build && yarn workspace umi-test run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hcxw11/linkOutOfMemory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hcxw11/linkOutOfMemory/issues"
+  },
+  "homepage": "https://github.com/hcxw11/linkOutOfMemory#readme",
+  "workspaces": [
+    "./packages/*"
+  ]
+}

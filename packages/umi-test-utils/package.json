@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "umi-test-utils",
+  "version": "1.0.0",
+  "description": "",
+  "module": "./es/index.js",
+  "main": "./es/index.js",
+  "types": "./es",
+  "scripts": {
+    "build": "father-build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "father-build": "^1.22.3"
+  }
+}
